@@ -1,0 +1,14 @@
+" Press <F1> for help
+
+-[F]guokr {
+ |-[F]image {
+ | |-logo.svg }
+ |
+ |-[F]style {
+ | |-style.css }
+ |
+ |-guokr.exvim
+ |-index.html
+ |-main.js }
+
+
