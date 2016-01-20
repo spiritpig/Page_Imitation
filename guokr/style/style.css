@@ -1,5 +1,6 @@
 html, body {
     margin: 0;
+    padding: 0;
     font-family: "sans-serif";
     background-color: #272822;
     color: #FEFEFE;
@@ -13,6 +14,7 @@ html, body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    padding: 0;
 }
 
 .topBox
@@ -22,10 +24,11 @@ html, body {
 
 .topBox .topBar
 {
-    height: 60px;
     width: 1000px;
+    height: 60px;
     padding: 20px 0 0 0;
-    margin: 20px auto 0;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 .topBox .topBar .logo
@@ -49,7 +52,7 @@ html, body {
 {
     float: left;
     font-size: 20px;
-    padding:  0 20px;
+    padding:  0 15px;
     list-style: none;
 }
 
@@ -61,8 +64,8 @@ html, body {
 
 .topBox .topBar .searchBox
 {
-    margin: 0;
-    padding: 0;
+    margin: 0 0 0 60px;
+    padding: 0 20px;
     float: left;
     background-color: #ffffff;
 }
@@ -80,7 +83,45 @@ html, body {
     height: 23px;
     padding: 0;
     width: 31px;
-    background: #ffffff url("../image/5-icon.png") no-repeat scroll 9px -52px;
+    background: #ffffff url("../image/5-icon.png") no-repeat scroll 9px -49px;
+}
+
+.topBox .topBar .searchBox .submit:hover
+{
+    height: 23px;
+    padding: 0;
+    width: 31px;
+    background: #ffffff url("../image/5-icon.png") no-repeat scroll 9px -93px;
+}
+
+.topBox .loginBar
+{
+    width:;
+    height: 175px;
+    text-align: center;
+    margin-bottom: 28px;
+    background-color: #333333;
+}
+
+.topBox .loginBar .loginBarContentWrapper
+{
+    padding-top: 57px;
+}
+
+.topBox .loginBar .loginBarContentWrapper span
+{
+    font-size: 21px;
+    margin-right: 20px;
+}
+
+.topBox .loginBar .loginBarContentWrapper a
+{
+    padding: 15px 42px;
+    margin-right: 15px;
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+    background-color: #88c833;
 }
 
 .midBox

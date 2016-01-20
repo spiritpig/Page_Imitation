@@ -117,7 +117,7 @@ setlocal formatexpr=
 setlocal formatoptions=croql
 setlocal formatlistpat=^\\s*\\d\\+[\\]:.)}\\t\ ]\\s*
 setlocal grepprg=
-setlocal iminsert=0
+setlocal iminsert=2
 setlocal imsearch=2
 setlocal include=^\\s*@import\\s\\+\\%(url(\\)\\=
 setlocal includeexpr=
@@ -170,18 +170,14 @@ setlocal nowinfixheight
 setlocal nowinfixwidth
 setlocal nowrap
 setlocal wrapmargin=0
-57
+98
 normal! zo
-63
-normal! zo
-79
-normal! zo
-let s:l = 75 - ((10 * winheight(0) + 16) / 33)
+let s:l = 67 - ((21 * winheight(0) + 16) / 33)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-75
-normal! 015|
+67
+normal! 023|
 let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
 " vim: set ft=vim :
